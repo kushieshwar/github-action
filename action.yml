@@ -1,17 +1,13 @@
-name: Super-Linter
-
+name: CI
 
 on: push
 
 jobs:
-  super-linter:
-    name: Lint code base
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Run Super-Linter
-        uses: github/super-linter@v3
-        env:
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: devarakonda.kushieshwar@straive.com
+        run: echo "Hello, world!"
