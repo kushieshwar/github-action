@@ -11,3 +11,5 @@ jobs:
       
       - name: devarakonda.kushieshwar@straive.com
         run: echo "Hello, world!"
+      - name: devarakonda.kushieshwar@straive.com
+        run: echo "Hello, world!"
